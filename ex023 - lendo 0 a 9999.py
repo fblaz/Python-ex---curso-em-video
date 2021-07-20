@@ -1,0 +1,25 @@
+num = int(input('digite um nr de 0 a 9999: '))
+if num < 10:
+    x = str('0'+'0'+'0'+str(num))
+    print(f'UNIDADE: {x[3]}')
+    print(f'DEZENA: {x[2]}')
+    print(f'CENTENA: {x[1]}')
+    print(f'MILHAR: {x[0]}')
+elif num < 100:
+    x = str('0' + '0' + str(num))
+    print(f'UNIDADE: {x[3]}')
+    print(f'DEZENA: {x[2]}')
+    print(f'CENTENA: {x[1]}')
+    print(f'MILHAR: {x[0]}')
+elif num < 1000:
+    x = str('0' + str(num))
+    print(f'UNIDADE: {x[3]}')
+    print(f'DEZENA: {x[2]}')
+    print(f'CENTENA: {x[1]}')
+    print(f'MILHAR: {x[0]}')
+else:
+    x = str(str(num))
+    print(f'UNIDADE: {x[3]}')
+    print(f'DEZENA: {x[2]}')
+    print(f'CENTENA: {x[1]}')
+    print(f'MILHAR: {x[0]}')
